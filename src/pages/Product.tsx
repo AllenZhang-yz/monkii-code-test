@@ -10,6 +10,10 @@ type IdParamType = {
 const ProductWrapper = styled.div`
   padding: 30px;
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 
 const Img = styled.img`
