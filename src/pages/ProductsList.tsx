@@ -31,9 +31,11 @@ const ProductCards = styled.div`
   @media screen and (max-width: 1024px) {
     grid-template-columns: repeat(3, 1fr);
   }
+
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
   @media screen and (max-width: 600px) {
     display: flex;
     flex-direction: column;
