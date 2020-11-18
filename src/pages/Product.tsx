@@ -34,7 +34,6 @@ const SingleProduct = () => {
     return <div>Sorry, no such product available!</div>;
   }
   const { imgUrl, sizes, price, name } = currentProduct;
-  console.log(currentProduct);
   return (
     <ProductWrapper>
       <Img src={imgUrl} alt={name} />
